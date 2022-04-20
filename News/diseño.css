@@ -1,0 +1,80 @@
+    body {
+        background-color: black;
+    }
+    
+    .animacion {
+        padding: 0 30px 0 60px;
+        display: flex;
+    }
+    
+    .logotofu {
+        width: 50%;
+    }
+    
+    #btext {
+        width: 200px;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        margin: auto;
+    }
+    
+    .news {
+        padding: 30px;
+        color: rgb(255, 255, 255);
+        font-weight: 800;
+        display: inline-block;
+    }
+    
+    .news:hover,
+    social-icons i:hover {
+        color: #37a4cf;
+        cursor: pointer;
+    }
+    
+    .bntime {
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    
+    nav {
+        background-color: rgb(0, 0, 0);
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    
+    nav ul {
+        margin: 20px 0 0 0;
+    }
+    
+    .navbar-nav li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: black;
+    }
+    
+    .navbar-nav li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    
+    .navbar-nav li a:hover {
+        color: #37a4cf;
+    }
+    .header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }
+    
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }

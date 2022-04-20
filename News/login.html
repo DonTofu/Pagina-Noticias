@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- lenguaje de la pagina -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- codificador de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- escala para pantallas tactiles -->
+    <link rel='stylesheet' type='text/css' media='screen' href='css/user.css'>
+    <!-- conecta con el css -->
+    <!-- carga de fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>formulario</title>
+</head>
+
+<body class="fondo">
+    <a href="noticia.html"><img src="images\logo.png" width="50" height="50" alt="logo"></a>
+    <div class="container-form sign-up">
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido/a</h2>
+                <p>Si ya tienes una cuenta por favor inicia sesion aqui</p>
+                <button class="btncolor">Iniciar Sesion</button>
+                <!-- boton que da el movimiento -->
+            </div>
+        </div>
+        <form class="formulario">
+            <h2 class="create-account">Crear una cuenta</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <i class='bx bxl-instagram'></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                </div>
+            </div>
+            <br>
+            <br>
+            <tr>
+                <td><label for="txt_nombre">Nombre completo</label></td>
+                <td><input type="text" name="txt_nombre" id="txt_nombre" required></td>
+            </tr>
+            <tr>
+                <td><label for="txt_nombre">Nombre de usuario</label></td>
+                <td><input type="text" name="txt_nombre" id="txt_nombre" required></td>
+            </tr>
+            <tr>
+                <td><label for="txt_mail">Correo electronico</label></td>
+                <td><input type="email" name="txt_mail" id="txt_mail" required></td>
+            </tr>
+            <tr>
+                <td><label for="txt_FC">Fecha nacimiento</label></td>
+                <td><input type="date" name="txt_FC" id="txt_FC" required></td>
+            </tr>
+            <tr>
+                <td>Seleccion su genero</td>
+                <br>
+                <td>
+                    <input type="radio" name="rbt_genero" id="rbt_genero" value="m"> Masculino <br>
+                    <input type="radio" name="rbt_genero" id="rbt_genero" value="f"> Femenino <br>
+                    <input type="radio" name="rbt_genero" id="rbt_genero" value="o"> Otra cosa <br>
+                </td>
+            </tr>
+            <input type="button" value="Registrarse">
+        </form>
+    </div>
+    <div class="container-form sign-in">
+        <form class="formulario">
+            <h2 class="create-account">Iniciar Sesion</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <i class='bx bxl-instagram'></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                </div>
+            </div>
+            <br>
+            <br>
+            <tr>
+                <td><label for="txt_nombre">Usuario</label></td>
+                <td><input type="text" name="txt_nombre" id="txt_nombre" required></td>
+            </tr>
+            <tr>
+                <td><label for="txt_nombre">Contraseña</label></td>
+                <td><input type="text" name="txt_nombre" id="txt_nombre" required></td>
+            </tr>
+            <input type="button" value="Ingresar">
+        </form>
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido/a</h2>
+                <p>Si aun no tienes una cuenta por favor registrese aqui</p>
+                <button class="btncolor1">Registrarse</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
